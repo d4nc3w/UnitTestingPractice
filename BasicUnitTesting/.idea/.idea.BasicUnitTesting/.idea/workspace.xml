@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac69b324-a320-4341-866e-d1b0f9c89892" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Tut2_s28113.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Tut2_s28113.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tut_s28113_Tests/Tut_s28113_Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tut_s28113_Tests/Tut_s28113_Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tut_s28113_Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tut_s28113_Tests/UnitTest1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.BasicUnitTesting">
     <configuration name="BasicUnitTesting" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -70,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728563800574</updated>
-      <workItem from="1728563802722" duration="1780000" />
+      <workItem from="1728563802722" duration="2148000" />
     </task>
     <servers />
   </component>
