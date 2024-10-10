@@ -2,9 +2,8 @@ using BasicUnitTesting;
 
 namespace Tut_s28113_Tests;
 
-public class Tests
+public class UnitTestsSphere
 {
-
     private readonly IShape sphere = new Sphere(5);
 
     [Test]
