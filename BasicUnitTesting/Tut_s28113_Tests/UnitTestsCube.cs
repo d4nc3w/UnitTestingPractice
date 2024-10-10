@@ -15,6 +15,6 @@ public class UnitTestsCube
     [Test]
     public void TestCubeCalculateVolume()
     {
-       // Assert.That(cube.CalculateVolume(), Is.EqualTo(100));
+        Assert.That(cube.CalculateVolume(), Is.EqualTo(125));
     }
 }
