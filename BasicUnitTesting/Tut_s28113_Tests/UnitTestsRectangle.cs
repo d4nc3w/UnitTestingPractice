@@ -15,6 +15,6 @@ public class UnitTestsRectangle
     [Test]
     public void TestRectangleCalculateVolume()
     {
-        Assert.That(rectangle.CalculateVolume(), Is.EqualTo(0));
+        Assert.That(rectangle.CalculateVolume(), Is.EqualTo(0.0d));
     }
 }

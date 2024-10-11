@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac69b324-a320-4341-866e-d1b0f9c89892" name="Changes" comment="" />
+    <list default="true" id="ac69b324-a320-4341-866e-d1b0f9c89892" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicUnitTesting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicUnitTesting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tut_s28113_Tests/UnitTestsRectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tut_s28113_Tests/UnitTestsRectangle.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +33,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;.NET Project.BasicUnitTesting.executor&quot;: &quot;Run&quot;,
+    &quot;1ac42a28-c226-4306-a2c5-ea779403f4e7.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -68,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728563800574</updated>
-      <workItem from="1728563802722" duration="3529000" />
+      <workItem from="1728563802722" duration="4818000" />
     </task>
     <servers />
   </component>
