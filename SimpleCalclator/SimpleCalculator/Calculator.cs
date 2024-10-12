@@ -13,9 +13,13 @@ public class Calculator
          case '*':
             return x * y;
          case '/':
+            if (y == 0)
+            {
+               throw new DivideByZeroException();
+            }
             return x / y;
          default:
-            return 0;
+            throw new ArithmeticException();
       }
    }
 }
