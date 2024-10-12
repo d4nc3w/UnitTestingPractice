@@ -17,4 +17,10 @@ public class Tests
     {
         Assert.That(_calculator.calculate(5, 5, '+'), Is.EqualTo(10));
     }
+
+    [Test]
+    public void TestSubtractOperation()
+    {
+        Assert.That(_calculator.calculate(100, 75, '-'), Is.EqualTo(25));
+    }
 }
