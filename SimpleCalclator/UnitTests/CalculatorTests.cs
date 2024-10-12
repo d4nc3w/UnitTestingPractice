@@ -23,4 +23,10 @@ public class Tests
     {
         Assert.That(_calculator.calculate(100, 75, '-'), Is.EqualTo(25));
     }
+
+    [Test]
+    public void TestMultiplyOperation()
+    {
+        Assert.That(_calculator.calculate(37, 5, '*'), Is.EqualTo(185));
+    }
 }
