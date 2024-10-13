@@ -15,10 +15,12 @@ public class Calculator
          case '/':
             if (y == 0)
             {
+               Console.WriteLine("Cannot divide by zero");
                throw new DivideByZeroException();
             }
             return x / y;
          default:
+            Console.WriteLine("Invalid sign");
             throw new ArithmeticException();
       }
    }
