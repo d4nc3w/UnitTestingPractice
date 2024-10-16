@@ -16,8 +16,6 @@ public class Tests
     public void TestAddOperation()
     {
         Assert.That(_calculator.calculate(5, 5, '+'), Is.EqualTo(10));
-        //False
-        Assert.That(_calculator.calculate(5, 5, '+'), Is.EqualTo(5));
     }
 
     [Test]
@@ -38,7 +36,7 @@ public class Tests
         Assert.That(_calculator.calculate(66, 6, '/'), Is.EqualTo(11));
         
         //Division by 0
-        Assert.That(_calculator.calculate(10, 0, '/'), Is.EqualTo(0));
+        Assert.Throws<DivideByZeroException>(() => _calculator.calculate(66, 0, '/'));
     }
 
     [Test]
