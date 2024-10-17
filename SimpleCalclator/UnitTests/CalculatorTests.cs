@@ -44,4 +44,11 @@ public class Tests
     {
         Assert.That(_calculator.calculate(5, 5, '&'), Is.EqualTo(10));
     }
+
+    [Test]
+    public void TestSignChange()
+    {
+        Assert.That(_calculator.calculate(5, 6, '-'), Is.LessThan(0));
+        Assert.That(_calculator.calculate(-10, 6, '+'), Is.LessThan(0));
+    }
 }
