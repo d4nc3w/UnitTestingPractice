@@ -49,6 +49,29 @@ public class Tests
     public void TestSignChange()
     {
         Assert.That(_calculator.calculate(5, 6, '-'), Is.LessThan(0));
-        Assert.That(_calculator.calculate(-10, 6, '+'), Is.LessThan(0));
+    }
+
+    [Test]
+    public void TestMultiplyTwoNegatives()
+    {
+        Assert.That(_calculator.calculate(-5, -5, '*'), Is.GreaterThan(0));
+    }
+
+    [Test]
+    public void TestMultiplyOneNegativeOnePositive()
+    {
+        Assert.That(_calculator.calculate(-5, 5, '*'), Is.LessThan(0));
+    }
+
+    [Test]
+    public void TestDividePositiveNumberByNegativeNumber()
+    {
+        Assert.That(_calculator.calculate(5, -5, '/'), Is.LessThan(0));
+    }
+
+    [Test]
+    public void TestDivideTwoNegativeNumber()
+    {
+        Assert.That(_calculator.calculate(-5, -5, '/'), Is.GreaterThan(0));
     }
 }
