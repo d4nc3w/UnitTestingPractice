@@ -42,7 +42,7 @@ public class Tests
     [Test]
     public void TestUnsupportedOperation()
     {
-        Assert.That(_calculator.calculate(5, 5, '&'), Is.EqualTo(10));
+        Assert.Throws<ArithmeticException>(() => _calculator.calculate(5, 0, '&'));
     }
 
     [Test]
